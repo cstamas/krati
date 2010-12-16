@@ -5,3 +5,8 @@ eclipse-build
 target
 docs
 logs
+# Eclipse settings should be ignored, since M2E steps over them anyway
+# it sources these from pom.xml
+.classpath
+.project
+.settings/
